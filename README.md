@@ -1,6 +1,17 @@
-# grace-ai-desktop-assistant2
-A personal AI desktop assistant like Jarvis for Windows/Mac/Linux
-git clone https://github.com/kundanthakur1327-netizenhey/grace-ai-desktop-assistant.git
-cd grace-ai-desktop-assistant
-pip install -r requirements.txt
-python main.py
+
+grace-ai-desktop-assistant2/
+├── main.py                      ✓ Main Grace application
+├── config.py                    ✓ Configuration & settings
+├── requirements.txt             ✓ Python dependencies
+├── README.md                    ✓ Full documentation
+├── commands/
+│   ├── __init__.py              ✓
+│   ├── system_commands.py       ✓ System control
+│   ├── file_commands.py         ✓ File management
+│   ├── app_commands.py          ✓ App launcher
+│   └── web_commands.py          ✓ Website launcher
+└── utils/
+    ├── __init__.py              ✓
+    ├── colors.py                ✓ Colored output
+    └── helpers.py               ✓ Utility functions
+    
